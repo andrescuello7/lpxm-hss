@@ -1,0 +1,11 @@
+[package]
+name = "ssh_client"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+tokio = { version = "1.40", features = ["full"] }
+bytes = "1.4"
+thiserror = "1.0"
+tracing = "0.1"
+shlex = "1.1"
